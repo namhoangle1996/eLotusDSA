@@ -42,7 +42,7 @@ func findLength(nums1 []int, nums2 []int) (res int) {
 				}
 			} else {
 				// If the values of the two elements differ ,
-				// find the table that has the largest value at [i-1][j] and [i][j-1] places,
+				// find the slice that has the largest value at [i-1][j] and [i][j-1] places,
 				// then update the tmpSlice
 				tmpSlice[i][j] = getMaxInt(tmpSlice[i-1][j], tmpSlice[i][j-1])
 			}
