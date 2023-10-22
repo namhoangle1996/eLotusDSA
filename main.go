@@ -60,7 +60,7 @@ func getMaxInt(a int, b int) int {
 }
 
 func sumOfDistancesInTree(n int, edges [][]int) (res []int) {
-	// I didn't solve this issue :D
+	// I have not been able to resolve this issue :D
 	return
 }
 
